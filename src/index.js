@@ -11,6 +11,8 @@ import ContactPage from './pages/ContactPage';
 import SurveyBuilder from './pages/SurveyBuilder';
 import PrivateRoute from './routes/PrivateRoute';
 import PublicRoute from './routes/PublicRoute';
+import InputSurvey from './components/survey/InputSurvey';
+import MatrixSurvey from './components/survey/MatrixSurvey';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(   
@@ -18,6 +20,8 @@ root.render(
       <Routes>
         <Route path="/" exact element={<App />} />
         <Route path="rating" element={<RatingSurvey />} />
+        <Route path="input" element={<InputSurvey />} />
+        <Route path="matrix" element={<MatrixSurvey />} />
         <Route path="home" element={<HomePage />} />
         <Route path="login" element={<PublicRoute component={LoginPage} />} />
         <Route path="about" element={<AboutPage />} />

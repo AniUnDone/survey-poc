@@ -5,3 +5,10 @@
 body{
   background-color: #62c5e5;
 }
+
+.rating-number{
+  width: 35px;
+  height: 35px;
+  line-height: 30px;
+  text-align: center;
+}
