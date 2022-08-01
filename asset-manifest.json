@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/survey-poc/static/css/main.87aef419.css",
+    "main.js": "/survey-poc/static/js/main.e4b20d0d.js",
+    "index.html": "/survey-poc/index.html",
+    "main.87aef419.css.map": "/survey-poc/static/css/main.87aef419.css.map",
+    "main.e4b20d0d.js.map": "/survey-poc/static/js/main.e4b20d0d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87aef419.css",
+    "static/js/main.e4b20d0d.js"
+  ]
+}
